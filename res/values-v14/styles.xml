@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Black"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+    </style>
+
+
+    <style name="CustomAppWidgetStyleForValues">
+        <item name="android:textSize">7sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+</resources>
